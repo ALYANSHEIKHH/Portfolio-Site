@@ -6,7 +6,7 @@ const Contact = () => {
         <section id="contact" className="bg-gray-50 py-12">
   <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg" data-aos="fade-up">
     <h1 className="text-4xl font-bold text-[#fca61f] text-center mb-6">Contact Us</h1>
-    <p className="text-lg text-gray-600 text-center mb-8">We'd love to hear from you! Fill out the form below or reach us through the links provided.</p>
+    <p className="text-lg text-gray-600 text-center mb-8">We would love to hear from you! Fill out the form below or reach us through the links provided.</p>
     
     <form action="mailto:alyansheikhh123@gmail.com" method="post" encType="text/plain" className="space-y-6">
       <input 

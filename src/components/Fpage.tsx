@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Fpage = () => {
   return (
@@ -9,7 +10,7 @@ const Fpage = () => {
     
     <div className="md:w-1/2 flex flex-col items-center md:items-start mx-10">
     <h1 className="text-4xl sm:text-6xl md:text-8xl mt-0 font-bold text-dark">
-  Hi I'm <br />
+  Hi I am <br />
   <span className="text-[#fca61f] text-[clamp(2rem,_1rem_+_5vw,_6rem)] font-bold">
     Alyan
   </span>
@@ -37,7 +38,8 @@ const Fpage = () => {
     </div>
     
     <div className="md:w-1/2 flex justify-center">
-    <img 
+    <Image
+    
   src="main.png" 
   className="w-full sm:w-[300px] md:w-[400px] drop-shadow-[0_0_20px_#fca61f]" 
   alt="Hero Image" 

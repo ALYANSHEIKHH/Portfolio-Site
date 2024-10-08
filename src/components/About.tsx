@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
       About Us
     </h1>
     <p className="text-lg text-gray-600 mb-4" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
-      I’m Alyan, a passionate and experienced Frontend Developer. Over the last year, I’ve had the opportunity to work on a variety of web development projects, each time honing my skills and pushing boundaries. 
+      I am Alyan, a passionate and experienced Frontend Developer. Over the last year, I have had the opportunity to work on a variety of web development projects, each time honing my skills and pushing boundaries. 
       I specialize in creating fast, responsive, and visually appealing websites. 
     </p>
     <p className="text-lg text-gray-600 mb-8" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="400">
@@ -20,7 +21,7 @@ const About = () => {
       </h2>
       <div className="flex justify-center">
         <div className="team-card text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">
-          <img src="main.png" alt="Alyan - Developer" className="w-36 h-36 rounded-full mx-auto shadow-lg mb-4"/>
+          <Image width={200} height={200} src="main.png" alt="Alyan - Developer" className="w-36 h-36 rounded-full mx-auto shadow-lg mb-4"/>
           <h3 className="text-xl font-medium text-gray-800">Alyan</h3>
            <p>Frontend Developer</p>
         </div>
