@@ -31,7 +31,7 @@ const Projects = () => {
       <div className="bg-white shadow-lg rounded-lg p-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
         <h2 className="text-2xl font-semibold text-[#fca61f] mb-4">Travel Agency Design</h2>
         <Image src="P6.jpeg" alt="Project 3" className="w-full h-40 object-cover rounded-md mb-4"/>
-        <p className="text-gray-600 mb-4">This is a design for a travel agency's website with amazing photographs.</p>
+        <p className="text-gray-600 mb-4">This is a design for a travel agency website with amazing photographs.</p>
         <button className="bg-[#fca61f] text-white font-semibold py-2 px-4 rounded-lg hover:bg-white hover:text-[#fca61f] border-2 border-[#fca61f] transition duration-300">
           <a href="https://travel-two-ebon-88.vercel.app/" target="_blank">View Project</a>
         </button>
